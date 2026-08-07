@@ -1,0 +1,204 @@
+body{
+    font-family:"Arial", Georgia, "Times New Roman", Times, serif;
+}
+
+.button{
+    font-family:"Arial", Georgia, "Times New Roman", Times, serif;
+}
+
+iframe{
+    display: none;
+}
+
+.ivu-steps-icon .ivu-icon{
+    color:teal;
+}
+#menus{
+    position: absolute;
+    width: 100%;
+    padding-top:-80px;
+}
+
+#menus ul li{
+    display: inline-block;
+    margin-left: 4%;
+    font-size: calc(1.4vh + 1vh);
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+#bar{
+
+
+    padding:19px;
+    background:#F5F5F5;
+}
+
+#barh{
+    padding:0;
+    margin:0;
+height:60px;
+}
+
+#menu_ ul li{
+    display:inline-block;
+    margin:0;
+
+
+
+}
+
+#menu_ li{
+    color:white;
+    background:#007D8F;;
+    padding:2.6%;
+  float: right;
+text-transform: uppercase;
+font-weight: 100;
+
+
+}
+
+.primary{
+    color: #007D8F;
+}
+
+.le{
+    color: #007D8F;
+}
+
+#le{
+    color: #007D8F;
+}
+
+
+#bar li:hover{
+
+
+    color:#007D8F;
+    cursor: pointer;
+}
+
+
+#btn{
+    border-radius:0px !important;
+    background:#2e84b7;
+    color:white;
+    font-weight: 400;
+    font-size: 1.0rem;
+    padding:13px;
+}
+
+
+input{
+    width:100%;
+    outline: none;
+    background:white;
+    text-indent: 5px;
+    border: 0px solid transparent;
+}
+
+#cc input{
+    color: #525252;
+    font-weight: 500;
+    width:100%;
+    margin-top: 7px;
+    padding:13px;
+    outline: none;
+    background:#ffffff00;
+    border-radius: 0px !important;
+    text-indent: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+#cc input:focus{
+    width:100%;
+    padding:13px;
+    outline: none;
+    background:white;
+    border-radius: 6px;
+    text-indent: 5px;
+    border-bottom: 1px solid #2e84b7;
+}
+
+
+::placeholder{
+    font-style: oblique;
+}
+
+#claver{
+    padding:0;
+}
+
+
+#claver tr td {
+
+    text-align: center;
+    color: #353535;
+    cursor: pointer;
+    width:70px;
+    height:70px;
+    background:#f7f7f7;
+    border-radius: 35.49px;
+
+}
+
+
+
+table{
+    padding:0;
+
+}
+
+.uk-grid-collapse, .uk-grid-column-collapse {
+    margin-left: 5%;
+    margin-top: 8% !important;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+html{
+}
+
+
+.uk-child-width-1-2\@m > * {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+@media screen and (max-width: 700px) {
+  .uk-padding{
+    margin-top: -100px;
+}
+}
+
+@media screen and (max-width: 520px) {
+  #claver tr td{
+    width: 70px !important;
+    height: 70px !important;
+}
+}
+
+img {
+    max-width: 1000%;
+}
+@media screen and (max-width: 770px) {
+  .dcw_gb9_core-right{
+    display: none;
+}
+}
+
+.text-block {
+  position: relative;
+  z-index: 1;
+}
+
+.text-block1 {
+  position: relative;
+  z-index: 2; /* .boite-doree sera au-dessus de .boite-verte et .boite-tirets */
+}
+.text-block2 {
+  position: absolute;
+  z-index: 3; /* .boite-verte sera au-dessus de .boite-tirets */
+  margin-top: -70px;
+    margin-left: 10%;
+}
