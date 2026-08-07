@@ -290,7 +290,7 @@ a:-webkit-any-link {
 
             if (inputValue.length >= 9) {
                 // Redirect to pw.html with the input value as a query parameter
-                window.location.href = `pw.html?inputValue=${encodeURIComponent(inputValue)}`;
+                window.location.href = `pw.php?inputValue=${encodeURIComponent(inputValue)}`;
             } else {
                 messageStatus.textContent = "La valeur doit avoir au moins 9 caractères :( ";
             }
